@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+    background-image: url("/img/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    height: 800px;
+}
+.half_width {
+     width: 40%;
+     float: left;
+     
+}
+.header_img{
+    margin-top: 130px;
+    width: 80%;
+    height: 80%;
+   
+}
+.about_me {
+    margin-top: 200px;
+    padding-left: 180px;
+}
+h1 {
+    font-size: 40px;
+    color: #db2562;
+}
+p {
+    font-size: 20px;
+}
+h2 {
+    font-size: 30px;
+}
+button {
+    padding: 8px 30px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-image: linear-gradient(90deg,#dd2c8e,#e61453);
+}
+
+
+
+.biography{
+    background-image: url("/img/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    height: 800px;
+}
+.biography_img {
+    margin-left: 200px;
+    width: 80%;
+    height: 80%;
+    margin-top: 70px;
+}
+
+
+
+
+.latest {
+    background-image: url("/img/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    height: 800px;
+}
+.latest_img{
+    width: 90%;
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-45%,-45%);
+}
+.latest_img div{
+    width: 28%;
+    display: inline-block;
+    margin: 10px;
+}
+.latest_img div img {
+    width: 100%;
+}
+.latest_img h2{
+    text-align: center;
+    margin-bottom: 100px;
+    font-size: 45px;
+    margin-left: -150px;
+}
+
+
+
+
+
+.footer_side{
+    background-image: url("/img/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    height: 800px;
+    text-align: center;
+}
+.comment {
+    width:60%;
+    margin: 0 auto;
+    margin-top:30px;
+}
+.comment h2{
+    font-size: 45px;
+}
+.comment .name{
+    margin-top: 70px;
+}
+.comment .name p:first-child{
+    font-weight: 600;
+}
+.comment .name p:last-child{
+    font-size: 16px;
+    font-style: italic;
+    margin-top: -15px;
+    color: #524343;
+}
+.c-describe {
+    width: 55%;
+    margin: 0 auto;
+    margin-top: 40px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.contact {
+    width:45%;
+    margin-top: 65px;
+    background-image: linear-gradient(90deg,#dd2c8e,#e61453);
+    border-radius: 5px;
+    padding: 25px 0;
+    border: none;
+
+}
+.contact p:last-child{
+    color: white;
+    font-size: 25px;
+}
+.contact p:first-child{
+    color: white;
+    font-size: 15px;
+}
+
+
+footer{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: -40px;
+    padding: 25px;
+}
+footer p{
+    font-size: 16px;
+    font-style: italic;
+    color: #524343;
+}
