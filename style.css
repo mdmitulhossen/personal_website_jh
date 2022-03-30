@@ -3,7 +3,7 @@ body {
    font-family: Arial, Helvetica, sans-serif;
 }
 .header {
-    background-image: url("/img/header-bg.png");
+    background-image: url("img/header-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-clip: border-box;
@@ -45,7 +45,7 @@ button {
 
 
 .biography{
-    background-image: url("/img/biography-bg.png");
+    background-image: url("img/biography-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-clip: border-box;
@@ -62,7 +62,7 @@ button {
 
 
 .latest {
-    background-image: url("/img/latest-work-bg.png");
+    background-image: url("img/latest-work-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-clip: border-box;
@@ -95,7 +95,7 @@ button {
 
 
 .footer_side{
-    background-image: url("/img/footer-bg.png");
+    background-image: url("img/footer-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-clip: border-box;
